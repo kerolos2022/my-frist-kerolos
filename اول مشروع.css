@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.home{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+   
+}
+.nav1 h2{
+color: white;
+
+}
+
+.nav1 span{
+    color: rgb(246, 56, 56);
+} 
+.nav1{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding-left: 70px;
+padding-top: 24px;
+ padding-right: 20px;
+}
+.nav1 ul li {
+    
+   
+    display: inline-block;
+    list-style-type: none;
+    margin: 5px;
+   
+    
+}
+.nav1 ul li a{
+ text-decoration: none;
+ color: white;
+ transition: .4s;
+}
+.nav1 ul li a:hover{
+    color: red;
+}
+.ddd {
+background-color: red;
+color: white; 
+border-radius: 30px;
+padding: 10px;
+text-decoration: none;
+ transition: .4s;
+ border: 3px solid red;
+}
+.ddd:hover{
+    background-color: transparent;
+    border: 3px solid red;
+}
+.contact{
+    
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.word a img{
+    width:40px;
+}
+.word h4{
+    color: rgb(26, 153, 232);
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+.word h1{
+    color: white;
+    font-size: 60px;
+font-weight: bold;
+padding-bottom: 10px;
+}
+.word span{
+    color: red;
+}
+.word h3{
+    color: white; 
+    padding-top: 40px;
+    padding-bottom: 60px;
+    font-size: 25px;
+}
+.imgs{
+    margin-top: 50px;
+    
+}
+.imgs img{
+    margin-right: 20px;
+    transition: .4s;
+}
+.imgs img:hover{
+    transform: scale(1.4);
+}
+
+.imgssss{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    align-self: flex-end;
+}
+.imgssss img{
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    transition: 1s;
+}
+.imgssss img:hover{
+    bottom: 10;
+    left: 10px;
+}
+.sec22{
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(34, 29, 87);
+    padding-top: 40px;
+   
+ padding-left: 70px;
+}
+.sec22 .mmm img{
+
+    width: 60%;
+    
+}
+.vvv h2{
+    color: black;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.vvv h2 span{
+    color: red;
+}
+.vvv h4{
+    font-size: 21px;
+    color: rgb(63, 249, 11);
+    margin-bottom: 14px;
+}
+.vvv p{
+    color: rgb(10, 195, 227);
+}
+.sec333
+{
+   background-color: black;
+} 
+ 
+
+.somk{
+    color: white;
+    font-size: 40px;
+ padding-bottom: 20px;
+
+}
+.somk span{
+    color: red;
+}
+.somk{
+     text-align: center;
+     font-size: 50px;
+}
+.sec333{
+padding-bottom: 30px  ;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.cord{
+    width: 300px;
+    height: 300px;
+    background-color: rgb(34, 29, 87); 
+   border-radius: 60px;
+   padding: 70px 50px;
+}
+.cord h3{
+    color: red;
+    font-size: 28px;
+}
+  i {
+   font-size: 30px;
+   color: white;
+ align-items: center;
+padding: 20px;
+transition: .6s;
+}
+i:hover{
+    transform: scale(1.4);
+}
+.cord p{
+    font-size: 19px;
+    color: aqua;
+}
+
+footer{
+    background-color: black;
+    padding-top: 40px;
+   
+ padding-left: 70px;
+}
+.lass111 h1{
+    color: white;
+    font-size: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.lass111 span{
+    color: red;
+}
+.lass111 p{
+    color:  rgb(63, 249, 11) ;
+    font-size: 30px;
+}
+.lass111 h4{
+    color: red;
+    padding-top: 30px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+footer .lass111{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
